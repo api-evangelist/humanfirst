@@ -1,0 +1,20 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://www.gohumanfirst.com/security/overview
+url: https://www.gohumanfirst.com/security/overview
+certifications:
+- SOC 2
+- GDPR
+- NIST CSF
+notes: >-
+  Information Security Program aligned to SSAE SOC 2, guided by the NIST CSF
+  series of information security standards, and compliant with the EU GDPR.
+  Web infrastructure hosted on AWS. No ISO 27001, HIPAA, PCI DSS, FedRAMP, or
+  HITRUST claimed on the public security overview.
+evidence:
+- source: https://www.gohumanfirst.com/security/overview
+  keywords:
+  - soc 2
+  - gdpr
+  - nist csf

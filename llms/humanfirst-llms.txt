@@ -1,0 +1,20 @@
+# HumanFirst (Atlas)
+
+> HumanFirst is a digital health measurement company whose Atlas platform helps clinical research and life-sciences teams evaluate, select, and operationalize sensor-based digital health technologies (wearables, connected devices, and digital biomarkers) for clinical trials and real-world evidence. HumanFirst is now part of ICON plc's Digital Health Technologies (DHT) capabilities. The Atlas platform is delivered as an authenticated web application; the company does not currently publish a public developer API.
+
+## Platform
+- [Atlas login](https://app.gohumanfirst.com/login): Authenticated Atlas web application.
+- [HumanFirst / ICON](https://www.gohumanfirst.com/): Company home; HumanFirst is part of ICON.
+- [ICON Digital Health Technologies](https://www.iconplc.com/DHT): ICON DHT capabilities that Atlas is integrated into.
+
+## Security & Compliance
+- [Security overview](https://www.gohumanfirst.com/security/overview): Information Security Program aligned to SSAE SOC 2, guided by NIST CSF, GDPR-compliant.
+- [Coordinated Vulnerability Disclosure policy](https://www.gohumanfirst.com/security/coordinated-vulnerability-disclosure-policy): Good-faith disclosure program (PGP preferred, no bug bounty).
+
+## Legal
+- [Privacy and data rights](https://www.gohumanfirst.com/privacy-and-data-rights)
+- [Terms and conditions](https://www.gohumanfirst.com/terms-and-conditions)
+- [Contact](https://www.gohumanfirst.com/contact)
+
+## Notes
+- No public API, OpenAPI/Swagger, SDK, MCP server, or developer portal was found (2026-07-19). This profile captures the company's public identity, security, and compliance posture only.

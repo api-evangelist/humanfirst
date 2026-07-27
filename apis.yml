@@ -1,8 +1,17 @@
 aid: humanfirst
 name: HumanFirst
-description: 'HumanFirst is a company surfaced as a portfolio company of threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  HumanFirst is a digital health measurement company whose Atlas platform helps
+  clinical research and life-sciences teams evaluate, select, and operationalize
+  sensor-based digital health technologies — wearables, connected devices, and
+  digital biomarkers — for clinical trials and real-world evidence. Atlas curates
+  a knowledge network of digital measures, connected devices, and the published
+  evidence behind them so sponsors and CROs can choose fit-for-purpose measures.
+  HumanFirst is now part of ICON plc and integrated into ICON's Digital Health
+  Technologies (DHT) capabilities. The Atlas platform is delivered as an
+  authenticated web application at app.gohumanfirst.com; the company does not
+  currently publish a public developer API. This profile captures the company's
+  public identity, security, and compliance posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/humanfirst/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - threshold-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62b4d0b7b1c828cbe3155f12/62b4d0b7b1c828d152155fa1_favicon-256x256.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Clinical Research
+- Digital Health
+- Digital Biomarkers
+- Wearables
+- Clinical Trials
+- Real-World Evidence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.gohumanfirst.com/
+- type: Login
+  url: https://app.gohumanfirst.com/login
+- type: PrivacyPolicy
+  url: https://www.gohumanfirst.com/privacy-and-data-rights
+- type: TermsOfService
+  url: https://www.gohumanfirst.com/terms-and-conditions
+- type: Support
+  url: https://www.gohumanfirst.com/contact
+- type: Compliance
+  url: https://www.gohumanfirst.com/security/overview
+- type: TrustCenter
+  url: security/humanfirst-trust-center.yml
+- type: Security
+  url: https://www.gohumanfirst.com/security/coordinated-vulnerability-disclosure-policy
+- type: VulnerabilityDisclosure
+  url: security/humanfirst-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/humanfirst-domain-security.yml
+- type: LLMsTxt
+  url: llms/humanfirst-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
